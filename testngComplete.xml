@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="E-Commerce">
+	  
+	  
+	  <parameter name="Username" value="test15"></parameter>
+	  <parameter name="Lastname" value="test.last15"></parameter>
+	  <parameter name="Password" value="Welcome@123"></parameter>
+	  <parameter name="Item" value="ipod"></parameter>
+	  <parameter name="EmailID" value="test.last15@gmail.com"></parameter>
+    <classes>
+		 <class name="com.abc.assign2.Register"/>
+		<class name="com.abc.assign2.LoginCopy"></class>
+      <class name="com.abc.assign2.Search"/>
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
